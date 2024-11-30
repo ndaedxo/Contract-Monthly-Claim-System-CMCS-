@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "HR Automation";
+    var approvedClaims = ViewBag.ApprovedClaims as List<Claim>;
+    var lecturers = Model as List<User>;
+}
+
+<h1>HR Automation</h1>
+
+<section>
+    <h2>Approved Claims</h2>
+    @if (approvedClaims != null && approvedClaims.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Claim ID</th>
+                    <th>Lecturer</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var claim in approvedClaims)
+                {
+                    <tr>
+                        <td>@claim.ClaimID</td>
+                        <td>@claim.User.UserName</td>
+                        <td>@claim.Amount</td>
+                        <td>@claim.CreatedAt.ToShortDateString()</td>
+                        <td>
+                            <a asp-action="GenerateInvoice" asp-route-claimId="@claim.ClaimID" class="btn btn-primary">Generate Invoice</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No approved claims available.</p>
+    }
+</section>
+
+<section>
+    <h2>Lecturer Data Management</h2>
+    @if (lecturers != null && lecturers.Any())
+    {
+        @foreach (var lecturer in lecturers)
+        {
+            <form method="post" asp-action="UpdateLecturer">
+                <input type="hidden" name="lecturerId" value="@lecturer.UserID" />
+                <label>Name:</label>
+                <input type="text" name="name" value="@lecturer.Name" required />
+                <label>Email:</label>
+                <input type="email" name="email" value="@lecturer.Email" required />
+                <label>Phone:</label>
+                <input type="tel" name="phone" value="@lecturer.Phone" required />
+                <button type="submit" class="btn btn-success">Update</button>
+            </form>
+        }
+    }
+    else
+    {
+        <p>No lecturers found.</p>
+    }
+</section>

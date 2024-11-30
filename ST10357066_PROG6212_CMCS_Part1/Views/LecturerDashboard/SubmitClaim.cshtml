@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "SubmitClaim";
+}
+
+
+
+
+<section>
+    <div class="flex h-screen bg-gray-50">
+        <!-- Sidebar -->
+        <div class="sidebar w-64 bg-gray-800 text-white shadow-lg flex flex-col">
+            <div class="sidebar-header p-6 border-b border-gray-700 flex items-center">
+                <img src="logo.png" alt="Logo" class="h-10 w-10 mr-2">
+                <h1 class="text-2xl font-bold">CMCS</h1>
+            </div>
+            <nav class="flex-1 overflow-y-auto px-4 py-6">
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="Index">
+                <i data-lucide="home" class="h-5 w-5 mr-3"></i> Home
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="SubmitClaim">
+                    <i data-lucide="home" class="h-5 w-5 mr-3"></i> Submit Claim
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="ViewClaims">
+                    <i data-lucide="file-text" class="h-5 w-5 mr-3"></i> View Claims
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="UploadDocuments">
+                    <i data-lucide="upload" class="h-5 w-5 mr-3"></i> Upload Docs
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="TrackStatus">
+                    <i data-lucide="activity" class="h-5 w-5 mr-3"></i> Track Status
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="UserFeedback">
+                    <i data-lucide="user" class="h-5 w-5 mr-3"></i> User Feedback
+                </a>
+
+
+
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="Account" asp-action="Profile">
+                    <i data-lucide="activity" class="h-5 w-5 mr-3"></i>Profile
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="Settings">
+                    <i data-lucide="user" class="h-5 w-5 mr-3"></i> Settings
+                </a>
+            </nav>
+            <div class="sidebar-footer p-6 border-t border-gray-700">
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="Account" asp-action="Logout">
+                    <i data-lucide="log-out" class="h-5 w-5 mr-3"></i> Logout
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 overflow-y-auto">
+            <header class="bg-white shadow-sm">
+                <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+                    <h1 id="page-title" class="text-2xl font-semibold text-gray-900">@ViewData["Title"]</h1>
+                </div>
+            </header>
+            <main class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+                <div id="content-area" class="content-area">
+                    <section class="bg-gray-50 py-8">
+                        <div class="max-w-3xl mx-auto bg-white shadow-md rounded-lg p-6">
+                            <h1 class="text-2xl font-semibold text-gray-800 mb-4">Submit Claim</h1>
+                            <form method="post" asp-action="SubmitClaim" enctype="multipart/form-data">
+                                <div class="mb-4">
+                                    <label for="hoursWorked" class="block text-sm font-medium text-gray-700">Hours Worked</label>
+                                    <input type="number" id="hoursWorked" name="hoursWorked" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="hourlyRate" class="block text-sm font-medium text-gray-700">Hourly Rate</label>
+                                    <input type="number" id="hourlyRate" name="hourlyRate" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required>
+                                </div>
+                                <div>
+                                    <label for="amount">Total Amount:</label>
+                                    <input type="number" id="amount" name="amount" readonly />
+                                </div>
+                                <div class="mb-4">
+                                    <label for="notes" class="block text-sm font-medium text-gray-700">Additional Notes</label>
+                                    <textarea id="notes" name="description" rows="3" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2" required></textarea>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="documents" class="block text-sm font-medium text-gray-700">Supporting Documents</label>
+                                    <input type="file" id="documents" name="documents" multiple accept=".pdf,.docx,.xlsx" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                                    <p class="text-sm text-gray-500 mt-1">Max file size: 5MB. Allowed formats: .pdf, .docx, .xlsx</p>
+                                </div>
+                                <div class="flex justify-end">
+                                    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+                </div>
+            </main>
+        </div>
+    </div>
+
+</section>
+
+<script>
+    document.getElementById("hoursWorked").addEventListener("input", calculateAmount);
+    document.getElementById("hourlyRate").addEventListener("input", calculateAmount);
+
+    function calculateAmount() {
+        const hoursWorked = parseFloat(document.getElementById("hoursWorked").value) || 0;
+        const hourlyRate = parseFloat(document.getElementById("hourlyRate").value) || 0;
+        const totalAmount = hoursWorked * hourlyRate;
+        document.getElementById("amount").value = totalAmount.toFixed(2);
+    }
+</script>

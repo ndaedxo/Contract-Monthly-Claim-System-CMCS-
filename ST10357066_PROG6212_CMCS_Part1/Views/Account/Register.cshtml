@@ -1,0 +1,43 @@
+﻿  @model ST10357066_PROG6212_CMCS_Part1.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="~/css/Register.css" asp-append-version="true" />
+
+<section class="signup-container">
+    <div class="header">
+        <div class="header-content">
+            <h1 class="title">Register to</h1>
+            <h2 class="subtitle">Contract Monthly Claim System</h2>
+            <p class="login-prompt">If you already have an account <a asp-controller="Account" asp-action="Login" class="login-link">You can Login here!</a></p>
+        </div>
+    </div>
+    <div class="form-container">
+        <form asp-controller="Account" asp-action="Register" method="post">
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="Email" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" name="Username" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="Password" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password" class="form-label">Confirm Password</label>
+                <input type="password" id="confirm-password" name="ConfirmPassword" class="form-input" required>
+            </div>
+            <p class="continue-with">or continue with</p>
+            <div class="social-login">
+                <!-- Add any social login buttons here -->
+            </div>
+            <button type="submit" class="signup-button">Sign Up</button>
+        </form>
+    </div>
+</section>

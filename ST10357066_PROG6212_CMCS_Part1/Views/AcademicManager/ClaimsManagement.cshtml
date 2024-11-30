@@ -1,0 +1,106 @@
+﻿@model IEnumerable<ST10357066_PROG6212_CMCS_Part1.Models.Claim>
+@{
+    ViewData["Title"] = "Claims Management";
+}
+
+<section>
+    <div class="flex h-screen bg-gray-50">
+        <!-- Sidebar -->
+        <div class="sidebar w-64 bg-gray-800 text-white shadow-lg flex flex-col">
+            <div class="sidebar-header p-6 border-b border-gray-700 flex items-center">
+                <img src="logo.png" alt="Logo" class="h-10 w-10 mr-2">
+                <h1 class="text-2xl font-bold">CMCS</h1>
+            </div>
+            <nav class="flex-1 overflow-y-auto px-4 py-6">
+                <a class="sidebar-link p-4" asp-action="Index">Dashboard Home</a>
+                <a class="sidebar-link p-4" asp-action="ClaimsManagement">Claims Management</a>
+                <a class="sidebar-link p-4" asp-action="LecturerDirectory">Lecturer Directory</a>
+                <a class="sidebar-link p-4" asp-action="ReportsAndAnalytics">Reports & Analytics</a>
+                <a class="sidebar-link p-4" asp-action="Profile">Profile</a>
+                <a class="sidebar-link p-4" asp-action="Settings">Settings</a>
+                <a class="sidebar-link p-4" asp-controller="Account" asp-action="Logout">Logout</a>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <main class="flex-1 max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-bold mb-6">Claims Management</h1>
+
+            <!-- Search -->
+            <input type="text" id="searchBox" onkeyup="filterClaims()" placeholder="Search by Lecturer or Claim ID" class="border p-2 rounded mb-4">
+            <script>
+                let debounce;
+                function filterClaims() {
+                    clearTimeout(debounce);
+                    debounce = setTimeout(() => {
+                        const query = document.getElementById("searchBox").value.toLowerCase();
+                        document.querySelectorAll("tbody tr").forEach(row => {
+                            const text = row.textContent.toLowerCase();
+                            row.style.display = text.includes(query) ? "" : "none";
+                        });
+                    }, 300);
+                }
+            </script>
+
+            <!-- Bulk Actions -->
+            <div class="flex justify-between mb-6">
+                <button onclick="updateClaims('Approve')" class="bg-green-600 text-black px-4 py-2 rounded">Approve All</button>
+                <button onclick="updateClaims('Reject')" class="bg-green-600 text-black px-4 py-2 rounded">Reject All</button>
+                <script>
+                    function updateClaims(actionType) {
+                        fetch(`/AcademicManager/UpdateAllClaims?actionType=${actionType}`, { method: "POST" })
+                            .then(response => {
+                                if (!response.ok) throw new Error("Failed to update claims.");
+                                location.reload();
+                            })
+                            .catch(error => console.error("Error:", error));
+                    }
+                </script>
+            </div>
+
+            <!-- Claims Table -->
+            <table class="min-w-full bg-white shadow-lg rounded-lg">
+                <thead class="bg-gray-100">
+                    <tr>
+                        <th class="p-4 text-left">Claim ID</th>
+                        <th class="p-4 text-left">Lecturer</th>
+                        <th class="p-4 text-left">Hours</th>
+                        <th class="p-4 text-left">Total Amount</th>
+                        <th class="p-4 text-left">Status</th>
+                        <th class="p-4 text-left">Validation Error</th>
+                        <th class="p-4 text-left">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var claim in Model)
+                    {
+                        <tr>
+                            <td class="p-4">@claim.ClaimID</td>
+                            <td class="p-4">@claim.User.UserName</td>
+                            <td class="p-4">@claim.Hours</td>
+                            <td class="p-4">@claim.Amount</td>
+                            <td class="p-4">@claim.Status</td>
+                            <td class="p-4">@claim.ValidationError</td>
+                            <td class="p-4">
+                                @if (claim.Status == "Pending")
+                                {
+                                    <form method="post" asp-action="ApproveClaim" asp-route-claimID="@claim.ClaimID" style="display: inline;">
+                                        <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded">Approve</button>
+                                    </form>
+                                    <form method="post" asp-action="RejectClaim" asp-route-claimID="@claim.ClaimID" style="display: inline;">
+                                        <button type="submit" class="bg-red-500 text-white px-4 py-2 rounded">Reject</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <span class="text-gray-500">No actions available</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </main>
+    </div>
+</section>

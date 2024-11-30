@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92BF1A24-C229-45B0-BEEC-3CFCE27BE9DD}|..\\TestProject\\TestProject.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\testproject\\lecturerdashboardcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\st10357066_prog6212_cmcs_part1\\controllers\\academicmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|solutionrelative:controllers\\academicmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\st10357066_prog6212_cmcs_part1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\st10357066_prog6212_cmcs_part1\\controllers\\lecturerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|solutionrelative:controllers\\lecturerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\st10357066_prog6212_cmcs_part1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\st10357066_prog6212_cmcs_part1\\views\\academicmanager\\claimsmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|solutionrelative:views\\academicmanager\\claimsmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\st10357066_prog6212_cmcs_part1\\models\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|solutionrelative:models\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\st10357066_prog6212_cmcs_part1\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|solutionrelative:models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|c:\\users\\ndae\\documents\\github\\prog6212-poe-st10357066\\st10357066_prog6212_cmcs_part1\\views\\academicmanager\\claimdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F708AC17-ABE9-4105-A01E-658E926DA18D}|ST10357066_PROG6212_CMCS_Part1.csproj|solutionrelative:views\\academicmanager\\claimdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LecturerDashboardControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\TestProject\\LecturerDashboardControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\LecturerDashboardControllerTests.cs",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\TestProject\\LecturerDashboardControllerTests.cs",
+              "RelativeToolTip": "..\\TestProject\\LecturerDashboardControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:47:47.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:45:16.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LecturerDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Controllers\\LecturerDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LecturerDashboardController.cs",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Controllers\\LecturerDashboardController.cs",
+              "RelativeToolTip": "Controllers\\LecturerDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:42:47.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:42:35.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClaimDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Views\\AcademicManager\\ClaimDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\AcademicManager\\ClaimDetails.cshtml",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Views\\AcademicManager\\ClaimDetails.cshtml",
+              "RelativeToolTip": "Views\\AcademicManager\\ClaimDetails.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T20:32:02.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Models\\Claim.cs",
+              "RelativeToolTip": "Models\\Claim.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA2wBUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T19:03:28.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Models\\IClaimService.cs",
+              "RelativeDocumentMoniker": "Models\\IClaimService.cs",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Models\\IClaimService.cs",
+              "RelativeToolTip": "Models\\IClaimService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAvwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:59:43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClaimsManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Views\\AcademicManager\\ClaimsManagement.cshtml",
+              "RelativeDocumentMoniker": "Views\\AcademicManager\\ClaimsManagement.cshtml",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Views\\AcademicManager\\ClaimsManagement.cshtml",
+              "RelativeToolTip": "Views\\AcademicManager\\ClaimsManagement.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwFAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T18:58:33.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AcademicManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Controllers\\AcademicManagerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AcademicManagerController.cs",
+              "ToolTip": "C:\\Users\\Ndae\\Documents\\GitHub\\prog6212-poe-ST10357066\\ST10357066_PROG6212_CMCS_Part1\\Controllers\\AcademicManagerController.cs",
+              "RelativeToolTip": "Controllers\\AcademicManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:58:13.927Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

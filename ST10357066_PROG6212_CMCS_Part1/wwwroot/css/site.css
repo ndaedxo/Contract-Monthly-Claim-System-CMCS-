@@ -1,0 +1,345 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1em;
+    padding: 10px;
+}
+
+.auth-link {
+    border: 1px solid rgba(245, 56, 85, 1);
+    border-radius: 12px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgba(245, 56, 85, 1);
+    font-size: 14px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+    .auth-link:hover {
+        background: rgba(245, 56, 85, 0.1);
+        color: rgba(245, 56, 85, 1);
+    }
+
+.user-details {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-role {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: auto;
+    left: 0; /* Aligns the menu to the left edge of the dropdown container */
+    top: 100%; /* Keeps the menu below the button */
+    background: #fff;
+    color: #000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    min-width: 150px; /* Ensures a minimum width for the dropdown menu */
+    z-index: 1000;
+}
+
+    .dropdown-menu.show {
+        display: block; /* Displays the dropdown menu when it has the 'show' class */
+    }
+
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+    .dropdown-item:hover {
+        background: #f5f5f5;
+    }
+
+/* Align dropdown menu to the left edge of the dropdown button */
+.dropdown-menu {
+    left: auto; /* Resets any default left alignment */
+    right: 0; /* Aligns the menu to the right edge of the dropdown container */
+}
+
+
+
+/* Main Content Styles */
+
+section {
+    padding: 40px 20px; /* Adds padding to all sections */
+    margin-bottom: 40px; /* Adds space between sections */
+}
+
+
+h2 {
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('../images/hero.png') no-repeat center center/cover;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.hero-subtitle {
+    font-size: 1.25em;
+    margin-bottom: 1.5em;
+}
+
+
+.hero-title, .hero-subtitle {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .btn-light:hover {
+        background-color: #f1f1f1;
+        color: #333;
+        border-color: #f1f1f1;
+    }
+
+.btn, .auth-link {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+    .btn:hover, .auth-link:hover {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+/* About Section Styles */
+.about-section {
+    background-color: #f4f4f4;
+    padding: 4rem 1rem;
+}
+
+.about-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.about-intro {
+    font-size: 1.125em;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #666;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-mission,
+.about-values {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .about-mission h3,
+    .about-values h3 {
+        font-size: 1.75em;
+        margin-bottom: 1rem;
+    }
+
+    .about-values ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .about-values li {
+        font-size: 1em;
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+    }
+
+    .about-values strong {
+        color: #333;
+    }
+
+@media (max-width: 768px) {
+    .about-content {
+        padding: 1rem;
+    }
+
+    .about-title {
+        font-size: 2em;
+    }
+
+    .about-intro {
+        font-size: 1em;
+    }
+
+    .about-mission,
+    .about-values {
+        padding: 1.5rem;
+    }
+}
+
+/* Service Section Styles */
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.service {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .service:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+.service-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.service-description {
+    font-size: 1em;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .service-container {
+        padding: 1rem;
+    }
+
+    .service {
+        min-width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .footer-section ul li {
+        margin: 10px 0;
+    }
+
+        .footer-section ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            .footer-section ul li a:hover {
+                text-decoration: underline;
+            }
+
+.footer-rights {
+    margin-top: 20px;
+    font-size: 0.8em;
+}

@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "ClaimDetails";
+}
+
+<section>
+    <div class="flex h-screen bg-gray-50">
+        <!-- Sidebar -->
+        <div class="sidebar w-64 bg-gray-800 text-white shadow-lg flex flex-col">
+            <div class="sidebar-header p-6 border-b border-gray-700 flex items-center">
+                <img src="logo.png" alt="Logo" class="h-10 w-10 mr-2">
+                <h1 class="text-2xl font-bold">CMCS</h1>
+            </div>
+            <nav class="flex-1 overflow-y-auto px-4 py-6">
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="Index">
+                    <i data-lucide="home" class="h-5 w-5 mr-3"></i> Home
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="SubmitClaim">
+                    <i data-lucide="home" class="h-5 w-5 mr-3"></i> Submit Claim
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="ViewClaims">
+                    <i data-lucide="file-text" class="h-5 w-5 mr-3"></i> View Claims
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="UploadDocuments">
+                    <i data-lucide="upload" class="h-5 w-5 mr-3"></i> Upload Docs
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="TrackStatus">
+                    <i data-lucide="activity" class="h-5 w-5 mr-3"></i> Track Status
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="UserFeedback">
+                    <i data-lucide="user" class="h-5 w-5 mr-3"></i> User Feedback
+                </a>
+
+
+
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="Account" asp-action="Profile">
+                    <i data-lucide="activity" class="h-5 w-5 mr-3"></i>Profile
+                </a>
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="LecturerDashboard" asp-action="Settings">
+                    <i data-lucide="user" class="h-5 w-5 mr-3"></i> Settings
+                </a>
+            </nav>
+            <div class="sidebar-footer p-6 border-t border-gray-700">
+                <a class="sidebar-item sidebar-link p-6 border-b border-gray-700" asp-area="" asp-controller="Account" asp-action="Logout">
+                    <i data-lucide="log-out" class="h-5 w-5 mr-3"></i> Logout
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 overflow-y-auto">
+            <header class="bg-white shadow-sm">
+                <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+                    <h1 id="page-title" class="text-2xl font-semibold text-gray-900">@ViewData["Title"]</h1>
+                </div>
+            </header>
+            <main class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+                <div id="content-area" class="content-area">
+<h1>Claim Status Details</h1>
+
+<div>
+    <strong>Claim ID:</strong> @Model.ClaimID <br>
+    <strong>Amount:</strong> @Model.Amount <br>
+    <strong>Status:</strong> @Model.Status <br>
+    <strong>Description:</strong> @Model.Description <br>
+    <strong>Created At:</strong> @Model.CreatedAt <br>
+                        <strong>Documents:</strong>
+                        @if (@Model.Documents != null && @Model.Documents.Count > 0)
+                        {
+                            <ul>
+                                @foreach (var doc in @Model.Documents)
+                                {
+                                    <li><a href="@Url.Content("~/uploads/" + doc.FileName)" target="_blank">@doc.FileName</a></li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span>No Documents</span>
+                        }
+                        <br>
+</div>
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+
+</section>

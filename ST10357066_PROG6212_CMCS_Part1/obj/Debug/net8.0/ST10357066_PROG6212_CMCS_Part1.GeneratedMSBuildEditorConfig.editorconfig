@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ST10357066_PROG6212_CMCS_Part1
+build_property.RootNamespace = ST10357066_PROG6212_CMCS_Part1
+build_property.ProjectDir = C:\Users\Ndae\Documents\GitHub\prog6212-poe-ST10357066\ST10357066_PROG6212_CMCS_Part1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ndae\Documents\GitHub\prog6212-poe-ST10357066\ST10357066_PROG6212_CMCS_Part1
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/AcademicManager/ClaimDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXENsYWltRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/AcademicManager/ClaimsManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXENsYWltc01hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/AcademicManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/AcademicManager/LecturerDirectory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXExlY3R1cmVyRGlyZWN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/AcademicManager/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/AcademicManager/ReportsAndAnalytics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXFJlcG9ydHNBbmRBbmFseXRpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/AcademicManager/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXFNldHRpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Account/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Home/HR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIUi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/ClaimDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcQ2xhaW1EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/SubmitClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcU3VibWl0Q2xhaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/TrackStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcVHJhY2tTdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/UploadDocuments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcVXBsb2FkRG9jdW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/UserFeedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcVXNlckZlZWRiYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/LecturerDashboard/ViewClaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJEYXNoYm9hcmRcVmlld0NsYWltcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/ProgrammeCoordinator/ClaimsManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbW1lQ29vcmRpbmF0b3JcQ2xhaW1zTWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/ProgrammeCoordinator/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbW1lQ29vcmRpbmF0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/ProgrammeCoordinator/LecturerDirectory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbW1lQ29vcmRpbmF0b3JcTGVjdHVyZXJEaXJlY3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/ProgrammeCoordinator/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbW1lQ29vcmRpbmF0b3JcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/ProgrammeCoordinator/ReportsAndAnalytics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbW1lQ29vcmRpbmF0b3JcUmVwb3J0c0FuZEFuYWx5dGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/ProgrammeCoordinator/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbW1lQ29vcmRpbmF0b3JcU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ndae/Documents/GitHub/prog6212-poe-ST10357066/ST10357066_PROG6212_CMCS_Part1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-peisxiq4vz
