@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/17MQ9l9o)
-Here’s a template for your README file:
+
 
 ---
 
@@ -96,7 +96,7 @@ Data flow in the system includes:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/IIEWFL/prog6212-poe-ST10357066.git
+   git clone https://github.com/ndaedxo/Contract-Monthly-Claim-System-CMCS-.git
    cd CMCS
    ```
 
