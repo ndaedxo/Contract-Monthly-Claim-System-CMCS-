@@ -158,7 +158,12 @@ Once the system is up and running, users can:
 
 ---
 
+## 👤 Author
 
+Ndaedzo Austin Mukhuba
+- GitHub: [@ndaedzo](https://github.com/ndaedxo)
+- LinkedIn: [Ndaedzo Austin Mukhuba](https://linkedin.com/in/ndaedzo-mukhuba-71759033b)
+- Email: [ndaemukhuba](ndaemukhuba@gmail.com)
 
 ---
 
